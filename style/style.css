@@ -1,0 +1,32 @@
+
+
+body{
+    margin: 0%;
+}
+nav {
+    /* background-color: var(--black); */
+    background-color: rgb(186, 104, 26);
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-manu {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.manus{
+        display: flex;
+        align-items: center;
+        gap: 3rem;   
+        list-style-type: none;}
+.manus a{
+   font-size: xx-large;
+}
+
